@@ -1,5 +1,5 @@
 const scalalang = [
-  "scala", "dotty"
+  "scala", "scala3", "dotty"
 ]
 
 const typelevel = [
@@ -12,7 +12,7 @@ const scalameta = [
 ]
 
 const softwaremill = [
-  "sttp", "scalar", "scalarconf"
+  "scalar", "scalarconf"
 ]
 
 const sbt = [
@@ -20,7 +20,7 @@ const sbt = [
 ]
 
 const lihaoi = [
-  "mill", "os-lib", "requests-scala"
+  "os-lib", "requests-scala"
 ]
 
 const lightbend = [
