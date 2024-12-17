@@ -17,6 +17,7 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
       // use only for debug purposes
       for (const post of ops.posts.creates) {
         console.log("================== [NEW POST] ==================")
+        console.log(post.author)
         console.log(post.record.text)
         console.log("================== [END POST] ==================")
       }
@@ -26,7 +27,7 @@ export class FirehoseSubscription extends FirehoseSubscriptionBase {
     const postsToCreate = ops.posts.creates
       .filter((create) => {
         // only scala related posts
-        return isAboutScala(create.record.text);
+        return isAboutScala(create.author, create.record.text);
       })
       .map((create) => {
         // map scala related posts to a db row
