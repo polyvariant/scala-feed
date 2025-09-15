@@ -2655,10 +2655,10 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-kysely@^0.27.4:
-  version "0.27.4"
-  resolved "https://registry.npmjs.org/kysely/-/kysely-0.27.4.tgz"
-  integrity sha512-dyNKv2KRvYOQPLCAOCjjQuCk4YFd33BvGdf/o5bC7FiW+BB6snA81Zt+2wT9QDFzKqxKa5rrOmvlK/anehCcgA==
+kysely@^0.28.7:
+  version "0.28.7"
+  resolved "https://registry.yarnpkg.com/kysely/-/kysely-0.28.7.tgz#461d160865825f89173a7f814489e92a91b13864"
+  integrity sha512-u/cAuTL4DRIiO2/g4vNGRgklEKNIj5Q3CG7RoUB5DV5SfEC2hMvPxKi0GWPmnzwL2ryIeud2VTcEEmqzTzEPNw==
 
 leven@^3.1.0:
   version "3.1.0"
